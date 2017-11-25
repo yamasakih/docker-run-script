@@ -1,0 +1,1 @@
+docker run -e GRANT_SUDO=yes -d -p 8888:8888 --rm -v /jupyter:/home/jovyan/work --user 1000:994 chemowakate/tutorial-7th start-notebook.sh --NotebookApp.password='sha1:4d295dded8f2:6d44d26960204e16891c7aba6726edbd52fe4b29'
